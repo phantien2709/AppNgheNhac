@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+       <ImageView
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="5dp"
+           android:id="@+id/ivbackgroudplaylist"
+           android:scaleType="fitXY"
+           android:layout_width="match_parent"
+           android:layout_height="120dp"/>
+       <View
+           android:background="@drawable/custom_background_banner"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="120dp"/>
+       <ImageView
+           android:id="@+id/ivplaylist"
+           android:scaleType="fitXY"
+           android:layout_alignBottom="@+id/ivbackgroudplaylist"
+           android:layout_marginLeft="15dp"
+           android:layout_marginBottom="10dp"
+           android:elevation="6dp"
+           android:layout_width="50dp"
+           android:layout_height="50dp"/>
+       <TextView
+           android:textSize="15sp"
+           android:text="Nhung bai hat xua"
+           android:layout_alignBottom="@+id/ivplaylist"
+           android:layout_toRightOf="@id/ivplaylist"
+           android:layout_marginLeft="13dp"
+           android:textStyle="bold"
+           android:textColor="#FFFFFF"
+           android:id="@+id/tvtenplaylist"
+           android:maxLines="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginRight="50dp"
+           android:ellipsize="end"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+</RelativeLayout>

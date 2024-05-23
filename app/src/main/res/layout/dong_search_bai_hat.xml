@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageviewsearchbaihat"
+        android:layout_margin="3dp"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:maxWidth="250dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/imageviewsearchbaihat"
+        android:text="Ten bai hat"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:id="@+id/textviewsearchtenbaihat"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:maxWidth="250dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/imageviewsearchbaihat"
+        android:text="Ca si"
+        android:textColor="#527C7878"
+        android:textSize="18sp"
+        android:layout_below="@id/textviewsearchtenbaihat"
+        android:id="@+id/textviewsearchcasi"/>
+    <ImageView
+        android:id="@+id/Ivfavorite"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/iconlove"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageviewsearchluotthich"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/baseline_star_border_24"/>
+
+
+</RelativeLayout>
